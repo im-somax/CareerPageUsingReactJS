@@ -3,6 +3,7 @@
 body{
     margin: 0;
     padding: 0;
+    position: relative;
 }
 .mainRow
 {
@@ -29,8 +30,8 @@ body{
     list-style: none;
     display: flex;
     flex-direction: row;
-    width: 640px;
-    margin-left: 300px;
+    width: auto;
+    margin-left: auto;
     justify-content: space-between;
     align-items: center;
 }
@@ -38,6 +39,7 @@ body{
 {
     color: #366ef1;
     font-size: 18px;
+    font-weight: 800;
     padding-top: .7rem;
     padding-bottom: .7rem;
     padding-left: 20px;

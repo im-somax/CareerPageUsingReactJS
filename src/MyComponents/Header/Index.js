@@ -5,18 +5,18 @@ class Header extends Component {
     render() {
         return (
             <>
-            <div className="mainRow"> 
-            <div className="logoImage"/> 
-            <ul className="listlinks"> 
-            <li className="linknames"> Home</li>
-            <li className="linknames"> Learners</li>
-            <li className="linknames"> CircleSpace</li>
-            <li className="linknames"> Blogs</li>
-            <li className="linknames"> About Us</li>
-            <li className="linknames"> Careers</li>
-            <li className="linknames"> .com.au</li>
-            </ul>
-            </div>
+                <div className="mainRow">
+                    <div className="logoImage" />
+                    <ul className="listlinks">
+                        <a href="#"><li className="linknames"> Home</li></a>
+                        <a href="#"><li className="linknames"> Learners</li></a>
+                        <a href="#"><li className="linknames"> CircleSpace</li></a>
+                        <a href="#"><li className="linknames"> Blogs</li></a>
+                        <a href="#"><li className="linknames"> About Us</li></a>
+                        <a href="#"><li className="linknames"> Careers</li></a>
+                        <a href="#"><li className="linknames"> .com.au</li></a>
+                    </ul>
+                </div>
             </>
         )
     }

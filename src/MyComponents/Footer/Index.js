@@ -1,14 +1,13 @@
 import React from 'react';
-import "./style.css";
 
 const Footer = () => {
     return (
         <>
-            <div className="footerDiv">
-                <p> © 2021 Tutorhere</p>
-                <p> Privacy Policy</p>
-                <p> FAQ</p>
-            </div>
+            <footer className="bg-dark text-light py-3">
+                <p className="text-center">
+                    Copyright &copy; Tutor Here 2021
+                </p>
+            </footer>
         </>
     );
 }
