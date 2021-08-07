@@ -1,80 +1,114 @@
-
 .hero-wrap {
-    width: 98.9vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  width: 98.9vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hero-wrap .text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.slider-text .subheading {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  color: #3e64ff;
+  letter-spacing: 4px;
+}
+
+.slider-text h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+@media (max-width: 767.98px) {
+  .slider-text h1 {
+    font-size: 40px;
   }
-    .hero-wrap .text {
-        text-align: center;
-        position: absolute;
-        top: 50%;
-      width: 100%; }
-      .slider-text .subheading {
-        text-transform: uppercase;
-        font-size: 16px;
-        font-weight: 800;
-        color: #3e64ff;
-        letter-spacing: 4px; }
-      
-      .slider-text h1 {
-        font-size: 60px;
-        font-weight: 800; }
-        @media (max-width: 767.98px) {
-          .slider-text h1 {
-            font-size: 40px; } }
-      
-      .slider-text h2 {
-        font-weight: 800; }
-        .slider-text h2 span {
-          color: #3e64ff;
-          text-decoration: underline; }
-      
-      .slider-text p {
-        font-size: 20px;
-        line-height: 1.5;
-        font-weight: 300;
-        color: rgba(255, 255, 255, 0.8); }
-        .slider-text p strong {
-          font-weight: 700; }
-          .slider-text p strong a {
-            color: #000000; }
+}
 
-      .row {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex; }
-          .container {
-            width: 100%;
-            margin-right: auto;
-            margin-left: auto; }
-            @media (min-width: 576px) {
-              .container {
-                max-width: 540px; } }
-            @media (min-width: 768px) {
-              .container {
-                max-width: 720px; } }
-            @media (min-width: 992px) {
-              .container {
-                max-width: 960px; } }
-            @media (min-width: 1200px) {
-              .container {
-                max-width: 1140px; } }
+.slider-text h2 {
+  font-weight: 800;
+}
+.slider-text h2 span {
+  color: #3e64ff;
+  text-decoration: underline;
+}
 
-                .justify-content-center {
-                    -webkit-box-pack: center !important;
-                    -ms-flex-pack: center !important;
-                    justify-content: center !important; }
+.slider-text p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+}
+.slider-text p strong {
+  font-weight: 700;
+}
+.slider-text p strong a {
+  color: #000000;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
 
 .align-items-center {
-    -webkit-box-align: center !important;
-    -ms-flex-align: center !important;
-    align-items: center !important; }
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.Homepageimg {
+  float: left;
+  position: absolute;
+  top: 4%;
+  left: -3%;
+}
+.Homepageimg2 {
+  float: right;
+  position: absolute;
+  top: 4%;
+  left: 66%;
+}
