@@ -22,11 +22,12 @@ ul{
 }
 .footer{
     background-color: #0866E4;
-    padding: 70px 0;
 }
 .footer-col{
    width: 25%;
    padding: 0 15px;
+   margin-top: 40px;
+	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -80,6 +81,9 @@ ul{
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
+}
+.copyright{
+	color: white;
 }
 
 /*responsive*/

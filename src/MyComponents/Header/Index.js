@@ -5,8 +5,13 @@ class Header extends Component {
     render() {
         return (
             <>
-                <div className="mainRow">
-                    <div className="logoImage" />
+                <nav className="mainRow">
+                    <input type = "checkbox" id="check"/>
+                    <label for = "check" class="checkbtn">
+                        <i className="fas fa-bar"></i>
+                    </label>
+                    {/* <div className="logoImage" /> */}
+                    <label className="logo">Tutor Here</label>
                     <ul className="listlinks">
                         <a href="#"><li className="linknames"> Home</li></a>
                         <a href="#"><li className="linknames"> Learners</li></a>
@@ -16,7 +21,7 @@ class Header extends Component {
                         <a href="#"><li className="linknames"> Careers</li></a>
                         <a href="#"><li className="linknames"> .com.au</li></a>
                     </ul>
-                </div>
+                </nav>
             </>
         )
     }

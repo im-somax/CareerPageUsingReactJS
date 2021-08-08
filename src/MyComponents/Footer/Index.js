@@ -13,14 +13,13 @@ const Footer = () => {
 								<li><a href="#">about us</a></li>
 								<li><a href="#">our services</a></li>
 								<li><a href="#">privacy policy</a></li>
-								{/* <li><a href="#">courses</a></li> */}
+								<li><a href="#">courses</a></li>
 							</ul>
 						</div>
 						<div class="footer-col">
 							<h4>get help</h4>
 							<ul>
 								<li><a href="#">FAQ</a></li>
-								{/* <li><a href="#">shipping</a></li> */}
 								<li><a href="#">returns</a></li>
 								<li><a href="#">order status</a></li>
 								<li><a href="#">payment options</a></li>
@@ -36,6 +35,7 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
+					<div className="text-center copyright py-5">Copyright &copy;2021 Tutor Here</div>
 				</div>
 			</footer>
 		</>
