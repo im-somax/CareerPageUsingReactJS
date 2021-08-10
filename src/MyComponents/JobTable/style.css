@@ -9,6 +9,7 @@ body{
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
+    text-transform: none;
 }
 .cardview{
     padding: 50px;
