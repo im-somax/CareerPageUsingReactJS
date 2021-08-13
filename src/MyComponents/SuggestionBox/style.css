@@ -1,0 +1,17 @@
+
+.container{ 
+    float: right;
+    margin-bottom: 4%;
+    margin-top: 10%;
+    text-align: center; 
+    color: white; 
+    padding: 8px; 
+    height: 160px;
+    width: 20%;
+    background-image:url("https://img.freepik.com/free-vector/blue-halftone-memphis-background-with-yellow-lines-circles-shapes_1017-31954.jpg?size=626&ext=jpg&ga=GA1.2.2098721810.1628121600") ;
+    background-size: cover;
+}
+#bbox{color:grey;
+   border:transparent;
+   padding: 4px;
+}

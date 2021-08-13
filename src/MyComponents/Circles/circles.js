@@ -8,7 +8,7 @@ const Circles = () => {
     <>
       <div className="circle">
         <div className="learnwithus" id=" circle1">
-          Learn with us.
+         <br/> Learn with us.
         </div>
         <div className="improvewithus" id="circle2">
           Improve with us.

@@ -6,11 +6,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-image:url("https://img.freepik.com/free-vector/blue-halftone-memphis-background-with-yellow-lines-circles-shapes_1017-31954.jpg?size=626&ext=jpg&ga=GA1.2.2098721810.1628121600") ;
 
   background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+
 }
 .hero-wrap .text {
   text-align: center;
@@ -22,21 +21,21 @@
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 800;
-  color: #3e64ff;
+  color:yellow;
   letter-spacing: 4px;
 }
 
-.slider-text h1 {
+.slider-text h1 {color: white;
   font-size: 60px;
   font-weight: 800;
 }
 @media (max-width: 767.98px) {
-  .slider-text h1 {
+  .slider-text h1 {color: white;
     font-size: 40px;
   }
 }
 
-.slider-text h2 {
+.slider-text h2 {color: white;
   font-weight: 800;
 }
 .slider-text h2 span {
@@ -54,7 +53,7 @@
   font-weight: 700;
 }
 .slider-text p strong a {
-  color: #000000;
+  color:white;
 }
 
 .row {

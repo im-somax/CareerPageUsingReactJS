@@ -3,14 +3,10 @@
 * {
   font-family: "Roboto", sans-serif;
 }
-
-.circle::before {
-}
 .circle {
-  padding-bottom: 50px;
-  padding-top: 100px;
-  background-image: url(../../Data/rm380-16.jpg);
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/BlankMap-World_gray.svg/1405px-BlankMap-World_gray.svg.png") ;
   background-size: cover;
+
   /*   width: 100%;
   
   height: auto;
@@ -20,8 +16,8 @@
 }
 .learnwithus {
   width: 100%;
-  font-size: 350%;
-  margin-top: 70px;
+  font-size: 300%;
+  height: 40px;
   color: #1b2f4c;
   display: flex !important;
   justify-content: center;
@@ -30,7 +26,7 @@
   width: 100%;
   font-size: 350%;
   color: #1b2f4c;
-  margin-top: 10px;
+  margin-top: 100px;
   display: flex !important;
   justify-content: center;
 }
@@ -45,7 +41,7 @@
 .box {
   text-align: center;
   height: 33vh;
-  width: 18%;
+  width: 33vh;
   box-sizing: border-box;
   margin: 10% 0;
   box-shadow: 0px 18px 50px 0px rgb(0 0 0 / 30%);
@@ -58,7 +54,7 @@
 .count {
   font-size: 300%;
   color: #3e64ff;
-  margin-top: 15%;
+  margin-top: 26%;
   text-align: center;
   -webkit-font-smoothing: antialiased;
 }

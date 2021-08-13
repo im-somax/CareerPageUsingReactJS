@@ -1,7 +1,8 @@
 body {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: center; 
+  
 }
 .card1 {
   text-align: center;
